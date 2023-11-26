@@ -7,12 +7,13 @@ function Footer() {
         <div className="footer">
             <h3>Nextflix Clone Created by Dev Solary</h3>
             <div className="links">
-                <a href="">X (Formally twitter)</a>
-                <a href="">Instagram</a>
+                <a href="https://twitter.com/devsolary/" target='_blank' rel='noopener noreferrer'>X (Formally twitter)</a>
+                <a href="instagam.com/devsolary" target='_blank' rel='noopener noreferrer'>Instagram</a>
                 <br />
-                <a href="">WhatSapp</a>
-                <a href="">Linkdlen</a>
-                <a href="">Youtube</a>
+                <a href="wa.link/l59p25" target='_blank' rel='noopener noreferrer'>WhatSapp</a>
+                <a href="www.linkedin.com/in/
+devsolary" target='_blank' rel='noopener noreferrer'>Linkdlen</a>
+                <a href="https://www.youtube.com/channel/UC6zyPHVm34mpSUwATU83EUA" target='_blank' rel='noopener noreferrer'>Youtube</a>
             </div>
         </div>
     </div>
