@@ -1,0 +1,52 @@
+[debug] [2023-11-25T16:58:46.009Z] ----------------------------------------------------------------------
+[debug] [2023-11-25T16:58:46.021Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2023-11-25T16:58:46.024Z] CLI Version:   12.6.0
+[debug] [2023-11-25T16:58:46.026Z] Platform:      linux
+[debug] [2023-11-25T16:58:46.028Z] Node Version:  v18.18.0
+[debug] [2023-11-25T16:58:46.040Z] Time:          Sat Nov 25 2023 17:58:46 GMT+0100 (West Africa Standard Time)
+[debug] [2023-11-25T16:58:46.043Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-25T16:58:46.381Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-25T16:58:46.384Z] > authorizing via signed-in user (mathewsolomon91@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/solary/netflix-clone
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-25T16:59:03.837Z] Using project from CLI flag: netflix-clone-app-2ed67
+[debug] [2023-11-25T16:59:03.854Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-app-2ed67 [none]
+[debug] [2023-11-25T16:59:08.075Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-app-2ed67 200
+[debug] [2023-11-25T16:59:08.078Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-clone-app-2ed67 {"projectId":"netflix-clone-app-2ed67","projectNumber":"139638765189","displayName":"Netflix-clone-app","name":"projects/netflix-clone-app-2ed67","resources":{"hostingSite":"netflix-clone-app-2ed67"},"state":"ACTIVE","etag":"1_505c6799-7c78-430b-a51f-c2dcd15eea73"}
+[info] i  Using project netflix-clone-app-2ed67 (Netflix-clone-app) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-11-25T17:00:06.626Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-11-25T17:00:16.673Z] *** [apiv2] error from fetch(https://www.gstatic.com/firebasejs/releases.json, {"headers":{},"method":"GET"}): FetchError: request to https://www.gstatic.com/firebasejs/releases.json failed, reason: getaddrinfo EAI_AGAIN www.gstatic.com
+[debug] [2023-11-25T17:00:21.725Z] Error: Timed out.
+    at Timeout._onTimeout (/usr/local/lib/node_modules/firebase-tools/lib/utils.js:254:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
